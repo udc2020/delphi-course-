@@ -1,0 +1,13 @@
+program Udc;
+uses
+  System.Math,
+  System.SysUtils,
+  Unit1 in 'Unit1.pas';
+
+var
+  result :Double;
+begin
+  result := Power(2,2);
+  Writeln('2² : ', result.ToString);
+  Readln;
+end.

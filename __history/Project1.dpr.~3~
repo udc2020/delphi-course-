@@ -1,0 +1,12 @@
+program Udc;
+uses
+  System.Math,
+  System.SysUtils,
+  Unit1 in 'Unit1.pas';
+
+
+begin
+  var user1  := User.Create();
+  Writeln(user1.id);
+  Readln;
+end.
